@@ -2,8 +2,8 @@ from flask import Flask, request
 
 app = Flask(__name__)
 PRODUCTS = [
-    {"id": "2", "name": "Product", "desc": "Product teste"},
-    {"id": "3", "name": "Product2", "desc": "Product teste 2"}
+    {"id": "1", "name": "Produto 1", "desc": "Breve descricao do produto 1"},
+    {"id": "2", "name": "Produto 1", "desc": "Breve descricao do produto 2"}
 ]
 @app.route('/')
 def home():

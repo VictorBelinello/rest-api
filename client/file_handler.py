@@ -17,7 +17,8 @@ def loadRequests():
   data = []
   with open('requests.txt') as f:
     for line in f:
-      data.append(parseLine(line))
+      if line != "\n":
+        data.append(parseLine(line))
   return data
 
 def saveResponse(req, res):
@@ -25,7 +26,7 @@ def saveResponse(req, res):
   with open('responses.txt', 'a') as f:
     method = req.get('method')
     url = req.get('url')
-    f.write(f'Response for {method} {url}:\n')
+    f.write(f'Response for {method} {url}\n')
     dump(res, f, indent=2,sort_keys=True)
     f.write('\n\n')
 
