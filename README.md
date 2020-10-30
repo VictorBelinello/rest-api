@@ -1,0 +1,2 @@
+O objetivo desse projeto é implementar um cliente para APIs REST simples, semelhante a programas como Postman ou Insomnia. Não existe nenhum objetivo de distribuição do produto final, o desenvolvimento é focado no aprendizado das tecnologias envolvidas. 
+Ao contrário dos programas citados a configuração dos requests será feita através de um arquivo texto, que será executado ao iniciar o programa. Para simplicidade o cliente supõe que o servidor trabalha apenas com JSON.

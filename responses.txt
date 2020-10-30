@@ -1,0 +1,55 @@
+Response for POST http://localhost:5000/products/:
+{
+  "data": {
+    "desc": "Produto teste",
+    "id": "1",
+    "name": "Prod1"
+  }
+}
+
+Response for GET http://localhost:5000/products/:
+{
+  "data": [
+    {
+      "desc": "Product teste",
+      "id": "2",
+      "name": "Product"
+    },
+    {
+      "desc": "Product teste 2",
+      "id": "3",
+      "name": "Product2"
+    },
+    {
+      "desc": "Produto teste",
+      "id": "1",
+      "name": "Prod1"
+    }
+  ]
+}
+
+Response for DELETE http://localhost:5000/products/1:
+{
+  "data": {
+    "desc": "Produto teste",
+    "id": "1",
+    "name": "Prod1"
+  }
+}
+
+Response for GET http://localhost:5000/products/:
+{
+  "data": [
+    {
+      "desc": "Product teste",
+      "id": "2",
+      "name": "Product"
+    },
+    {
+      "desc": "Product teste 2",
+      "id": "3",
+      "name": "Product2"
+    }
+  ]
+}
+
