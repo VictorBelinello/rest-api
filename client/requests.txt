@@ -1,8 +1,4 @@
-GET http://localhost:5000/
-GET http://localhost:5000/products/
-
-POST http://localhost:5000/products/ {"id":"3", "name":"Produto 3", "desc":"Breve descricao do produto 3"}
-GET http://localhost:5000/products/
-
-DELETE http://localhost:5000/products/1
-GET http://localhost:5000/products/
+GET ${base_url}/
+GET ${base_url}/products/
+POST ${base_url}/products/ ${prod3}
+GET ${base_url}/products/

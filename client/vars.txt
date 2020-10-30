@@ -1,0 +1,2 @@
+base_url = http://localhost:5000
+prod3 = {"desc": "Breve descricao do produto 3","id": "3","name": "Produto 3"}

@@ -1,34 +1,9 @@
-Response for GET http://localhost:5000/:
+Response for GET http://localhost:5000/
 {
   "data": "Hello world"
 }
 
-Response for GET http://localhost:5000/products/:
-{
-  "data": [
-    {
-      "desc": "Breve descricao do produto 1",
-      "id": "1",
-      "name": "Produto 1"
-    },
-    {
-      "desc": "Breve descricao do produto 2",
-      "id": "2",
-      "name": "Produto 1"
-    }
-  ]
-}
-
-Response for POST http://localhost:5000/products/:
-{
-  "data": {
-    "desc": "Breve descricao do produto 3",
-    "id": "3",
-    "name": "Produto 3"
-  }
-}
-
-Response for GET http://localhost:5000/products/:
+Response for GET http://localhost:5000/products/
 {
   "data": [
     {
@@ -45,26 +20,56 @@ Response for GET http://localhost:5000/products/:
       "desc": "Breve descricao do produto 3",
       "id": "3",
       "name": "Produto 3"
+    },
+    {
+      "desc": "Breve descricao do produto 3",
+      "id": "3",
+      "name": "Produto 3"
+    },
+    {
+      "desc": "Breve descricao do produto 3",
+      "id": "3",
+      "name": "Produto 3"
     }
   ]
 }
 
-Response for DELETE http://localhost:5000/products/1:
+Response for POST http://localhost:5000/products/
 {
   "data": {
-    "desc": "Breve descricao do produto 1",
-    "id": "1",
-    "name": "Produto 1"
+    "desc": "Breve descricao do produto 3",
+    "id": "3",
+    "name": "Produto 3"
   }
 }
 
-Response for GET http://localhost:5000/products/:
+Response for GET http://localhost:5000/products/
 {
   "data": [
+    {
+      "desc": "Breve descricao do produto 1",
+      "id": "1",
+      "name": "Produto 1"
+    },
     {
       "desc": "Breve descricao do produto 2",
       "id": "2",
       "name": "Produto 1"
+    },
+    {
+      "desc": "Breve descricao do produto 3",
+      "id": "3",
+      "name": "Produto 3"
+    },
+    {
+      "desc": "Breve descricao do produto 3",
+      "id": "3",
+      "name": "Produto 3"
+    },
+    {
+      "desc": "Breve descricao do produto 3",
+      "id": "3",
+      "name": "Produto 3"
     },
     {
       "desc": "Breve descricao do produto 3",
